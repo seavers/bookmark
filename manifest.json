@@ -1,0 +1,14 @@
+{
+  "name": "书签",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "书签整理工具",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "bookmarks", "tabs", "http://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.gif",
+    "default_popup": "popup.html"
+  }
+}
